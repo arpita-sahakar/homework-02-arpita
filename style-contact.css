@@ -1,0 +1,61 @@
+.navbar-name {
+    background-color: rgb(9, 146, 116);
+    color: white;
+  
+}
+
+h3{
+    color:white;
+}
+
+.nav-bar-name-div {
+    padding-left: 20px;
+}
+
+.container{
+    background: white;
+}
+
+body{
+    background: #d0dadb;
+
+}
+
+
+h1{
+    color:  rgb(9, 146, 116);
+    padding-top: 30px;
+}
+
+.btn-contact{
+    background-color: rgb(9, 146, 116);
+    border-color: rgb(9, 146, 116);
+}
+
+.btn-contact-form{  
+    padding-bottom: 20px;
+}
+
+.contact-submit{
+    padding-bottom: 20px;
+}
+
+.footer-line1{
+    background-color: #50898f;
+    height: 10px;
+}
+.footer-line2{
+    background-color: grey;
+    height: 50px;
+    width:100%;
+    bottom: 0;
+}
+section {
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+/* .contact-form {
+    background-color: lavender;
+} */
