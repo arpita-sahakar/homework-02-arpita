@@ -24,7 +24,7 @@ This website contains of three sections :
 
 - [Github link](https://github.com/arpita-sahakar/homework-02-arpita)
 
-- [Live website](https://github.com/arpita-sahakar/homework-02-arpita)
+- [Live website](https://arpita-sahakar.github.io/homework-02-arpita/)
 
 
 
