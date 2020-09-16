@@ -7,18 +7,18 @@ This website contains of three sections :
 - ## About Me
     This page contains information about my educational learnings, my career aspiration and other details about me. 
 
-    ![About Me](./assets/images/about-me-screenshot.JPG) 
+    ![About Me](https://github.com/arpita-sahakar/homework-02-arpita/blob/master/Assets/Images/about-me-screenshot.JPG) 
 
 
 - ## Contact
     Through this page people/recruiter will provide their details so that I can contact them . People show their interest in my website by filling up the form. 
 
-    ![Contact](assets/images/contact-screenshot.JPG) 
+    ![Contact](https://github.com/arpita-sahakar/homework-02-arpita/blob/master/Assets/Images/contact-screenshot.JPG) 
 
 - ## Portfolio
     This page will contain all the projects i worked on. Which will help recruiter to know about my experiences. 
 
-    ![Portfolio](assets/images/portfolio-screenshot.JPG) 
+    ![Portfolio](https://github.com/arpita-sahakar/homework-02-arpita/blob/master/Assets/Images/portfolio-screenshot.JPG) 
 
 ---
 
