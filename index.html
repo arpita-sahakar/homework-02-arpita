@@ -25,11 +25,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="nav-bar-name-div">
-          <a class="navbar-brand navbar-name" href="index.html"
-            ><h3>Arpita Kar</h3></a
-          >
+          <a class="navbar-brand" href="index.html"><h3>Arpita Kar</h3></a>
         </div>
 
         <button
@@ -46,14 +44,21 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact </a>
+              <a class="nav-link" href="#">
+                <span class="portfolio-links" id="about"> About </span>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link portfolio-links" id="projects" href="#"
+                ><span class="portfolio-links"> Projects </span></a
+              >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >About <span class="sr-only">(current)</span></a
+              <a
+                class="nav-link portfolio-links"
+                id="contacts"
+                href="index.html"
+                ><span class="portfolio-links"> Contact </span></a
               >
             </li>
           </ul>
@@ -61,26 +66,26 @@
       </nav>
     </header>
 
-    <section>
+    <section id="about-me">
       <div class="contact-form">
-        <div class="container">
-          <div class="row">
+        <div class="container" id="aboutMeContainer">
+          <div class="row section-background" id="about-me-margin">
             <div class="col-12"><h1>About Me</h1></div>
           </div>
-          <div class="row">
+          <div class="row section-background">
             <div class="col-12"><hr /></div>
           </div>
 
-          <div class="row">
+          <div class="row section-background">
             <div class="col-10">
               <div class="index-pic">
                 <img src="Assets/Images/arpita.png" width="200" height="200" />
               </div>
 
-              <p>
+              <p id="paragraph">
                 Currently pursuing Bootcamp in web development from Georgia
-                Tech. Used bootstrap, HTML, and CSS for all website design .
-                Currently learning JavaScript & used it for scripting. I want to
+                Tech. Used JQuery, JavaScript, Bootstrap, HTML, CSS for all website design .
+                Currently learning NodeJS & used it for scripting. I want to
                 be a Web Application Developer and Online Business Developer
                 with considerable training and enterprise experience in Web site
                 design and layout and in all stages of design, coding, and
@@ -94,8 +99,117 @@
                 <br />
               </p>
 
-              <p>Email: arpita.sahaa@gmail.com</p><br>
-              <p>Linkedin: linkedin.com/in/arpita-saha-29b8b069</p><br>
+              <br>
+              <br />
+            <br>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-form">
+      <div class="contact-form">
+        <div class="container" id="contact-container">
+          <div class="row">
+            <div class="col-12">
+              <h1 id="get-in-touch">GET IN TOUCH</h1>
+              <h4 id="contact-me">
+                Whether you have an idea for project or just want to discuss,<br />feel
+                free to contact me!<br />
+                +1 (623)-277-6540
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12" id="empty-block"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 get-in-touch">
+              <a
+                class="contact-btn"
+                href="mailto:arpita.sahaa@gmail.com"
+                target="_blank"
+                >Email</a
+              >
+            </div>
+
+            <div class="col-4 get-in-touch">
+              <a
+                class="contact-btn"
+                href="https://github.com/arpita-sahakar"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+
+            <div class="col-4 get-in-touch">
+              <a
+                class="contact-btn"
+                href="https://www.linkedin.com/in/arpita-kar-29b8b069/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </div>
+          </div>
+
+          <!-- <div class="row">
+            <div class="col-10 get-in-touch">
+              <a
+                class="contact-btn"
+                href="mailto:arpita.sahaa@gmail.com"
+                target="_blank"
+                >Email</a
+              >
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="proje">
+      <div class="contact-form">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><h1>Portfolio</h1></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://arpita-sahakar.github.io/Project-1/">
+                <img
+                  class="portFolio-image"
+                  src="./Assets/Images/safe-music-lover.JPG"
+                  class="rounded float-left image"
+                  alt="picture1"
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="https://arpita-sahakar.github.io/weather-Dashboard/">
+                <img
+                  class="portFolio-image"
+                  src="./Assets/Images/weather-dashboard.JPG"
+                  class="rounded float-left image"
+                  alt="picture1"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <a
+                href="https://arpita-sahakar.github.io/day-planner-assignment-05/"
+              >
+                <img
+                  class="portFolio-image"
+                  src="./Assets/Images/day-planner.JPG"
+                  class="rounded float-left image"
+                  alt="picture1"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -122,5 +236,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
